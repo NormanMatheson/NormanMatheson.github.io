@@ -2,10 +2,10 @@ const myImage = document.querySelector("img");
 
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/music.svg") {
-    myImage.setAttribute("src", "images/firefox-icon.png");
+  if (mySrc === "music.svg") {
+    myImage.setAttribute("src", "firefox-icon.png");
   } else {
-    myImage.setAttribute("src", "images/music.svg");
+    myImage.setAttribute("src", "music.svg");
   }
 });
 let myButton = document.querySelector("button");
